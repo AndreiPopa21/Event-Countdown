@@ -1,0 +1,66 @@
+.counter-text{
+    color: white;
+}
+
+.time-remaining{
+    text-align: center;
+    color:  #66FCF1;
+}
+
+.counter-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.days-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.hours-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.minutes-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.seconds-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: flex-start;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.counter-digits{
+    font-size: 78px;
+}
+
+.counter-description{
+    font-size: 32px;
+    color : #66FCF1;
+}
+
+.counter-dots{
+    font-size: 72px;
+}
+
+p{
+    margin:0;
+}
