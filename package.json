@@ -2,8 +2,10 @@
   "name": "countdown",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/AndreiPopa21/Event-Countdown.git",
   "dependencies": {
     "@material-ui/core": "^4.3.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-datepicker": "^2.8.0",
     "react-dom": "^16.8.6",
@@ -12,9 +14,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "test": "react-scripts test",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -35,6 +37,5 @@
   "devDependencies": {
     "css-loader": "^3.1.0",
     "style-loader": "^0.23.1"
-  },
-  "homepage": "https://github.com/AndreiPopa21/Event-Countdown.git"
+  }
 }
