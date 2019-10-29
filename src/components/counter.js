@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../Counter.css';
-import zero from '../zero.png'
 import { Button } from '@material-ui/core';
 
 import Days from './days'
